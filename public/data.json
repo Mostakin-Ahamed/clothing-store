@@ -1,0 +1,184 @@
+[
+      {
+        "image": "path/to/male_image1.jpg",
+        "name": "Casual Polo Shirt",
+        "type": "Shirt",
+        "price": 29.99,
+        "rating": 4.3,
+        "brand": "CasualWear",
+        "details": "Comfortable polo shirt for a casual look."
+      },
+      {
+        "image": "path/to/male_image2.jpg",
+        "name": "Slim-fit Chinos",
+        "type": "Pants",
+        "price": 39.99,
+        "rating": 4.5,
+        "brand": "FashionHub",
+        "details": "Slim-fit chinos for a modern and stylish appearance."
+      },
+      {
+        "image": "path/to/male_image3.jpg",
+        "name": "Running Shorts",
+        "type": "Shorts",
+        "price": 24.99,
+        "rating": 4.8,
+        "brand": "SportsGear",
+        "details": "Breathable running shorts for active men."
+      },
+      {
+        "image": "path/to/male_image4.jpg",
+        "name": "Classic Blazer",
+        "type": "Blazer",
+        "price": 69.99,
+        "rating": 4.7,
+        "brand": "FormalStyle",
+        "details": "Classic blazer for a sophisticated and polished look."
+      },
+      {
+        "image": "path/to/male_image5.jpg",
+        "name": "Denim Jacket",
+        "type": "Jacket",
+        "price": 54.99,
+        "rating": 4.6,
+        "brand": "DenimCraft",
+        "details": "Stylish denim jacket for a rugged yet fashionable appeal."
+      },
+      {
+        "image": "path/to/male_image6.jpg",
+        "name": "Hiking Boots",
+        "type": "Shoes",
+        "price": 79.99,
+        "rating": 4.9,
+        "brand": "AdventureGear",
+        "details": "Durable hiking boots for outdoor enthusiasts."
+      },
+      {
+        "image": "path/to/male_image7.jpg",
+        "name": "Crewneck Sweater",
+        "type": "Sweater",
+        "price": 49.99,
+        "rating": 4.4,
+        "brand": "WinterWarm",
+        "details": "Cozy crewneck sweater for chilly days."
+      },
+      {
+        "image": "path/to/male_image8.jpg",
+        "name": "Formal Dress Shirt",
+        "type": "Shirt",
+        "price": 34.99,
+        "rating": 4.5,
+        "brand": "ElegantStyle",
+        "details": "Crisp formal dress shirt for special occasions."
+      },
+      {
+        "image": "path/to/male_image9.jpg",
+        "name": "Cargo Pants",
+        "type": "Pants",
+        "price": 44.99,
+        "rating": 4.2,
+        "brand": "UrbanExplorer",
+        "details": "Versatile cargo pants with ample pocket space."
+      },
+      {
+        "image": "path/to/male_image10.jpg",
+        "name": "Graphic T-Shirt",
+        "type": "T-Shirt",
+        "price": 19.99,
+        "rating": 4.6,
+        "brand": "GraphicStyle",
+        "details": "Expressive graphic T-shirt for a bold statement."
+      },
+      {
+        "image": "path/to/female_image1.jpg",
+        "name": "Flowy Summer Dress",
+        "type": "Dress",
+        "price": 49.99,
+        "rating": 4.7,
+        "brand": "SummerChic",
+        "details": "Light and flowy summer dress for a stylish look."
+      },
+      {
+        "image": "path/to/female_image2.jpg",
+        "name": "Skinny Jeans",
+        "type": "Jeans",
+        "price": 39.99,
+        "rating": 4.5,
+        "brand": "Fashionista",
+        "details": "Trendy skinny jeans for a modern and sleek appearance."
+      },
+      {
+        "image": "path/to/female_image3.jpg",
+        "name": "Athletic Leggings",
+        "type": "Leggings",
+        "price": 29.99,
+        "rating": 4.8,
+        "brand": "ActiveStyle",
+        "details": "Stretchy athletic leggings for comfortable workouts."
+      },
+      {
+        "image": "path/to/female_image4.jpg",
+        "name": "Faux Leather Jacket",
+        "type": "Jacket",
+        "price": 59.99,
+        "rating": 4.6,
+        "brand": "ChicLeather",
+        "details": "Stylish faux leather jacket for a fashionable edge."
+      },
+      {
+        "image": "path/to/female_image5.jpg",
+        "name": "Ankle Boots",
+        "type": "Boots",
+        "price": 69.99,
+        "rating": 4.9,
+        "brand": "TrendyFootwear",
+        "details": "Fashionable ankle boots for a trendy look."
+      },
+      {
+        "image": "path/to/female_image6.jpg",
+        "name": "Knit Sweater",
+        "type": "Sweater",
+        "price": 54.99,
+        "rating": 4.4,
+        "brand": "CozyKnits",
+        "details": "Warm and comfortable knit sweater for cold days."
+      },
+      {
+        "image": "path/to/female_image7.jpg",
+        "name": "Wrap Blouse",
+        "type": "Blouse",
+        "price": 34.99,
+        "rating": 4.5,
+        "brand": "ElegantFeminine",
+        "details": "Elegant wrap blouse for a sophisticated look."
+      },
+      {
+        "image": "path/to/female_image8.jpg",
+        "name": "Wide-Leg Trousers",
+        "type": "Trousers",
+        "price": 44.99,
+        "rating": 4.2,
+        "brand": "ModernChic",
+        "details": "Fashionable wide-leg trousers for a stylish ensemble."
+      },
+      {
+        "image": "path/to/female_image9.jpg",
+        "name": "Bohemian Maxi Skirt",
+        "type": "Skirt",
+        "price": 49.99,
+        "rating": 4.6,
+        "brand": "BohoVibes",
+        "details": "Bohemian-style maxi skirt for a free-spirited look."
+      },
+      {
+        "image": "path/to/female_image10.jpg",
+        "name": "Printed Blazer",
+        "type": "Blazer",
+        "price": 59.99,
+        "brand": "BohoVibes",
+        "details": "Bohemian-style maxi skirt for a free-spirited look."
+    }
+        
+]
+
+  
