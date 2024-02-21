@@ -13,28 +13,17 @@ const Details = () => {
 
     const { user } = useContext(AuthContext)
     const formRef = useRef();
-    const { _id, image, description, price, duration_hours, service_name } = item;
+    const {  image, name, type, price, rating, brand, details } = item;
     const axios = useAxiosPublic()
 
-    const bookItem = e => {
-        // e.preventDefault();
-        // console.log(tour.image);
+    const addToCart = e => {
+        e.preventDefault();
         // const form = e.target;
-        // const email = user.email;
-        // const tourId = _id;
-        // console.log(tourId);
-        // const tourImage = image;
-        // console.log(tourImage);
-        // const tourDescription = description;
-        // const tourPrice = price;
-        // const tourDuration = duration_hours;
-        // const guideName = form.guideName.value;
-        // const tourDate = form.date.value;
-        // const tourName = service_name;
-        // const bookedTour = { email, tourId, tourImage, tourDescription, tourPrice, tourDuration, tourName, guideName, tourDate };
-        // console.log(bookedTour);
+        const email = user.email;
+        const products = { email, image, name, type, price, rating, brand, details};
+        // console.log(products);
 
-        axios.post('/bookTour', bookedTour)
+        axios.post('/addToCart', products)
             .then(res => {
                 console.log(res.data);
                 if (res.data.insertedId) {
@@ -56,14 +45,17 @@ const Details = () => {
     return (
         <div>
             <Helmet><title>{item.name}</title></Helmet>
-            <div className=" min-h-[700px] flex justify-center  mb-10">
+            <div className=" min-h-[700px] flex justify-center">
                 <img className=" h-full pt-16 " src={image} alt="" />
             </div>
             <div className=" mb-10 ">
-                <div className="flex-col justify-center text-center">
-                    <h1 className="text-3xl font-bold">Name: {item.name}</h1>
-                    <h1 className="text-2xl font-bold">Detail: {item.details}</h1>
-                    <h1 className="text-2xl font-bold">Price: ${price}</h1>
+                <div className="flex-col justify-center  text-center">
+                    <h1 className="text-3xl font-bold mb-2">Name: {item.name}</h1>
+                    <h1 className="text-2xl font-bold mb-2">Detail: {item.details}</h1>
+                    <h1 className="text-2xl font-bold mb-2">Price: ${price}</h1>
+                    <h1 className="text-2xl font-bold mb-5">Brand: {brand}</h1>
+                    <h1 className="text-2xl font-bold mb-5">Rating: {rating} / 5</h1>
+
 
                 </div>
                 <div className="flex justify-center">
@@ -73,7 +65,7 @@ const Details = () => {
                     <div className="modal-box">
                         <div className="py-4">
                             <h3 className="font-bold text-lg text-center">{item.name}</h3>
-                            <form onSubmit={bookItem} className="w-1/2 lg:w-10/12 md:3/4 mx-auto">
+                            <form onSubmit={addToCart} className="w-1/2 lg:w-10/12 md:3/4 mx-auto">
 
                                 <figure><img className="object-cover h-full" src={image} alt="Shoes" /></figure>
                                 <div className="form-control">
