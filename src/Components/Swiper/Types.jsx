@@ -39,23 +39,23 @@ const Types = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <Link ><img className='w-full h-full object-cover' src="/wildlife.jpg" />
+                    <Link ><img className='w-full h-full object-cover' src="https://i.ibb.co/NFtvNq8/male5.png" />
                     <h2 className='font-bold text-3xl text-black absolute -mt-16 ml-3'>Shoes</h2></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Link ><img className='h-full object-cover' src="/sports.jpeg" />
+                    <Link ><img className='h-full object-cover' src="https://i.ibb.co/5hhgzxJ/pa4.png" />
                     <h2 className='font-bold text-3xl text-black absolute -mt-16 ml-3'>Pants</h2></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Link ><img className='h-full object-cover' src="/hiking.jpg" />
+                    <Link ><img className='h-full object-cover' src="https://i.ibb.co/B6MynYy/m2.png" />
                     <h2 className='font-bold text-3xl text-black absolute -mt-16 ml-3'>Shirt</h2></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Link ><img className='h-full object-cover' src="/walking.jpg" />
+                    <Link ><img className='h-full object-cover' src="https://i.ibb.co/TMnCS7m/fmale3.png" />
                     <h2 className='font-bold text-3xl text-black absolute -mt-16 ml-3'>Dress</h2></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Link><img className='h-full object-cover' src="/air-rides.jpg" />
+                    <Link><img className='h-full object-cover' src="https://i.ibb.co/6nrXn9x/m4.png" />
                     <h2 className='font-bold text-3xl text-black absolute -mt-16 ml-3'>T-Shirt</h2></Link>
                 </SwiperSlide>
                 
