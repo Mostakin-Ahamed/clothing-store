@@ -6,8 +6,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import { Pagination } from 'swiper/modules';
-import Swal from "sweetalert2";
-import { addToDb } from "../../FakeDB/FakeDB";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -19,17 +19,7 @@ const BestDeals = () => {
             .then(data => setProducts(data))
     }, [])
     const popular = products.filter(product => (product.price < 50) && (product.price > 20))
-    const handleBuyNow = (product) => {
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Product added in your cart',
-            showConfirmButton: false,
-            timer: 1500
-        })
-        addToDb(product.id)
-
-    }
+ 
     return (
         <div className="my-16 max-h-[900px]">
             <Slide direction="down">
@@ -72,7 +62,7 @@ const BestDeals = () => {
                                         <h2 className="card-title">{item.name}</h2>
                                         <p>If a dog chews shoes whose shoes does he choose?</p>
                                         <div className="card-actions justify-center">
-                                            <button className="btn btn-primary">Details</button>
+                                            <Link to={`/${item._id}`}><button className="btn bg-[#96ECB4]">Details</button></Link>
                                         </div>
                                     </div>
                                 </div></SwiperSlide>))
