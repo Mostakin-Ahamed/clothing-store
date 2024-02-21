@@ -31,7 +31,7 @@ const BestDeals = () => {
 
     }
     return (
-        <div className="my-16 border border-red-600 max-h-[800px]">
+        <div className="my-16 max-h-[900px]">
             <Slide direction="down">
                 <div className="flex justify-center">
                     <h1 className="text-3xl font-bold text-center border-double border-y-8 border-[#9be9a0] inline-block">
@@ -66,19 +66,13 @@ const BestDeals = () => {
                     {
                         popular.map(item => (
                             <SwiperSlide key={item.id}>
-                                <div className="card w-96 bg-base-100 shadow-xl avatar indicator">
-                                    <span className="indicator-item badge bg-[#66CC8A] badge-[#66CC8A] mt-4">Offer</span>
-                                    <figure className="px-10 pt-10">
-                                        <img src={item.image} className="rounded-xl object-cover" />
-                                    </figure>
-                                    <div className="card-body items-center text-center">
+                                <div className="card w-96 bg-base-100 shadow-xl">
+                                    <figure><img className="h-36" src={item.image} alt="Shoes" /></figure>
+                                    <div className="card-body">
                                         <h2 className="card-title">{item.name}</h2>
-                                        <p>Brand: {item.seller}</p>
-                                        <p className="line-through">Price: ${item.price}</p>
-                                        <p className="">New Price: ${item.price - 10}</p>
-
-                                        <div onClick={() => handleBuyNow(item)} className="card-actions">
-                                            <button className="btn bg-[#96ECB4]">Add to Cart</button>
+                                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                                        <div className="card-actions justify-center">
+                                            <button className="btn btn-primary">Details</button>
                                         </div>
                                     </div>
                                 </div></SwiperSlide>))
