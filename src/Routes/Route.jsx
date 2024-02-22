@@ -16,28 +16,29 @@ export const router = createBrowserRouter([
     element: <Mainlayout></Mainlayout>,
     children:[{
         path:'/',
-        element: <Home></Home>,
-        loader:() => fetch(`http://localhost:5000`)
+        element: <Home></Home>
     },
     {
         path:'/addProduct',
         element:<PrivateRoute><AddProduct></AddProduct></PrivateRoute>
-    }
-    ,
+    },
     {
-        path:'/myCart',
+        path:`/myCart`,
         element:<PrivateRoute><MyCart></MyCart></PrivateRoute>
-    },{
+    },
+    {
         path: '/login',
         element: <Login></Login>
-    },{
+    },
+    {
         path: '/register',
         element:<Register></Register>
-    },{
+    },
+    {
         path: `/:id`,
         element: <PrivateRoute><Details></Details></PrivateRoute>,
         loader: ({params})=> fetch(`http://localhost:5000/${params.id}`)
-    }
+    },
         
     ]
 },
