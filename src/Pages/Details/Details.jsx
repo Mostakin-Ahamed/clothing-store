@@ -45,7 +45,7 @@ const Details = () => {
     return (
         <div>
             <Helmet><title>{item.name}</title></Helmet>
-            <div className=" min-h-[700px] flex justify-center">
+            <div className=" lg:min-h-[700px] flex justify-center">
                 <img className=" h-full pt-16 " src={image} alt="" />
             </div>
             <div className=" mb-10 ">

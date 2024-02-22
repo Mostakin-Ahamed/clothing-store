@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import './Banner.css'
 const Banner = () => {
     return (
@@ -6,7 +6,7 @@ const Banner = () => {
             <div className='mt-16 pl-10 lg:ml-64'>
 
                 <div id='header-text'>
-                    <p>Giving you the best tours<br /> with your loved ones.</p>
+                    <p>A lot of collections to choose from<br /> for you and your loved ones.</p>
                 </div>
                 <div className='lg:flex justify-between '>
                     <div>
@@ -24,12 +24,11 @@ const Banner = () => {
                                 </div>
                             </div>
                             <div className='w-[358px] mt-8 text-justify'>
-                                <p>Giving you the best and memorable tour with your loved ones ! Making great memories throughout the whole tour ! Because your satisfaction is everything to us !
-                                    See our packages down bellow !</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt nam sequi facere beatae vitae delectus deleniti! Officia consequuntur, aliquam ipsam praesentium quaerat tenetur optio laborum quibusdam quidem, placeat eaque recusandae nam neque? Esse delectus dignissimos dolor vitae officia nam tempora eligendi optio quod quam eius eos, ipsam iste voluptatibus officiis?</p>
                             </div>
                             <div>
                                 <div>
-                                    <Link to={'/allTours'}><button className='w-[257px] absolute h-[55px] bg-[#FE7E41] mt-9 font-semibold text-base text-white spacing-5'>See Our Packages</button></Link>
+                                    <button className='w-[257px] absolute h-[55px] bg-[#FE7E41] mt-9 font-semibold text-base text-white spacing-5'>See Our Packages</button>
                                     <button className='static w-[257px] h-[55px] border-solid border-2 mt-12 ml-5 border-black'></button>
                                 </div>
                                 <div >

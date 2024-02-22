@@ -2,7 +2,7 @@
 
 const Carouse = () => {
     return (
-        <div>
+        <div className=" h-96">
             <div className="carousel carousel-center rounded-box">
                 <div className="carousel-item">
                     <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Pizza" />
