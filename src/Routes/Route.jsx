@@ -39,7 +39,7 @@ export const router = createBrowserRouter([
     {
         path: `/:id`,
         element: <PrivateRoute><Details></Details></PrivateRoute>,
-        loader: ({params})=> fetch(`http://localhost:5000/${params.id}`)
+        loader: ({params})=> fetch(`https://clothing-store-server-neon.vercel.app/${params.id}`)
     },
         
     ]

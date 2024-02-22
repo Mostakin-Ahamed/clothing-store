@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://clothing-store-server-neon.vercel.app'
 })
 
 const useAxiosSecure = () => {
